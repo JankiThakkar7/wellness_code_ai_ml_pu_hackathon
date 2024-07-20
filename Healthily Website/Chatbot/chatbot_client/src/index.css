@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.glow {
+  color: #ffffff; /* Initial color of the icon */
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7),
+               0 0 20px rgba(255, 255, 255, 0.7),
+               0 0 30px rgba(255, 255, 255, 0.7),
+               0 0 40px rgba(255, 0, 0, 0.7),
+               0 0 70px rgba(255, 0, 0, 0.7),
+               0 0 80px rgba(255, 0, 0, 0.7),
+               0 0 100px rgba(255, 0, 0, 0.7),
+               0 0 150px rgba(255, 0, 0, 0.7);
+}
+

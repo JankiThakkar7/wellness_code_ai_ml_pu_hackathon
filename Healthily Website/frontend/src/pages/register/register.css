@@ -1,0 +1,60 @@
+.register-container {
+  position: absolute;
+  height: 100dvh;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  top: 0;
+  left: -100%;
+  transition: 0.5s ease-in-out;
+}
+
+.register-active {
+  left: 0;
+}
+
+.register-logo {
+  width: 64px;
+  margin-bottom: 16px;
+}
+
+.register-name {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.register-tagline {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 32px;
+}
+
+.register-button {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 20px;
+  background: none;
+  border: 2px solid #605bff;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.register-button img {
+  width: 32px;
+}
+
+.register-container span {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 28px;
+}
+
+.material-icons-round .md-24 {
+  font-size: 50px;
+}

@@ -1,0 +1,25 @@
+.radio-label {
+  position: relative;
+  display: inline-block;
+  padding-left: 32px; /* Adjust as needed */
+  margin-right: 10px; /* Adjust as needed */
+  cursor: pointer;
+}
+
+.radio-label::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 16px; /* Size of the radio button */
+  height: 16px; /* Size of the radio button */
+  border-radius: 4px;
+  background-color: #efeeff;
+}
+
+input[type="radio"]:checked + .radio-label:before {
+    background-color: #605bff; /* Checked color */
+    /* outline-offset: 1px;
+    outline: 1px solid #605bff; */
+}
